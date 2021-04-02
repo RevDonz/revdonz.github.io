@@ -1,4 +1,4 @@
-import { Hero, Navbar } from './components'
+import { Hero, Navbar } from "./components";
 
 function App() {
   return (
