@@ -11,8 +11,8 @@ module.exports = {
       colors: {
         violet: colors.violet,
         'dark-main': '#232638',
-        'dark-second': '#242526',
-        'dark-third': '#3A3B3C',
+        'dark-second': '#292d42',
+        'dark-third': '#333852',
         'dark-txt': '#B8BBBF'
       },
     },
