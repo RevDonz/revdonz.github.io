@@ -1,7 +1,8 @@
 import React from "react";
 import Typical from "react-typical";
-import { IMGHero, ReactLogo, BootstrapLogo, HtmlLogo, JavascriptLogo, TailwindLogo } from '../../assets'
+import { IMGHero } from '../../assets'
 import { LazyLoadImage } from 'react-lazy-load-image-component';
+import { FaGithub, FaFacebook, FaInstagram, FaTelegram } from "react-icons/fa";
 
 export default function Hero() {
   return (
@@ -22,10 +23,16 @@ export default function Hero() {
               <p>I'm learning web developing since 2019.</p>
               <p>Hello There, my name is Reva Doni Aprilio and people who's know call me Doni (19). I Live in Bandung, West Java. I am a Telkom University student and majored in Software Engineering.</p>
             </div>
-            <div className="py-3">
+            <div className="py-3 flex items-center flex-col lg:flex-row">
               <button className="px-3 py-2 bg-transparent focus:outline-none hover:bg-violet-500 border-solid border-2 border-violet-500 rounded-lg transition-all duration-300">
-                About
+                <a href="mailto:aprilio842@gmail.com">Contact Me</a>
               </button>
+              <div className="flex mt-5 lg:mt-0 p-4 space-x-5 text-3xl">
+                <a href="https://github.com/RevDonz"><FaGithub className="hover:text-violet-500 transition-all duration-300" /></a>
+                <a href="https://www.facebook.com/reva.doni.aprilio/"><FaFacebook className="hover:text-violet-500 transition-all duration-300" /></a>
+                <a href="https://www.instagram.com/revdonz_/"><FaInstagram className="hover:text-violet-500 transition-all duration-300" /></a>
+                <a href="https://t.me/RevDonz"><FaTelegram className="hover:text-violet-500 transition-all duration-300" /></a>
+              </div>
             </div>
           </div>
           <div className="w-1/2">

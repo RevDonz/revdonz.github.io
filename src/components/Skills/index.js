@@ -1,24 +1,36 @@
 import React from 'react';
-import { ReactLogo, BootstrapLogo, HtmlLogo, JavascriptLogo, TailwindLogo, PHPLogo, CSSLogo } from '../../assets'
+import {
+    ReactLogo,
+    BootstrapLogo,
+    HtmlLogo,
+    JavascriptLogo,
+    TailwindLogo,
+    PHPLogo,
+    CSSLogo,
+    CILogo,
+    LaravelLogo,
+    PythonLogo,
+    GoLogo,
+} from '../../assets';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 export default function Skills() {
     return (
-        <div className='bg-dark-main font-poppins h-full'>
+        <div className='bg-dark-main font-poppins h-full' id='about'>
             <div className='container mx-auto px-10 lg:px-20 h-full py-10'>
                 <div className='items-center w-full'>
                     <div className='bg-dark-second p-10 rounded-xl text-white'>
                         <div className='text-center pb-10'>
                             <span className='text-2xl font-semibold hover:text-violet-500 border-b-2 border-dark-second hover:border-violet-500 transition-all duration-300'>
-                                My Basic Skills
+                                What I've Learned
                             </span>
                         </div>
-                        <div className="pb-5">
-                            <div className="text-left py-3">
-                                <span className="text-xl">Language</span>
+                        <div className='pb-5'>
+                            <div className='text-left py-3'>
+                                <span className='text-xl'>Language</span>
                             </div>
                             <div className='grid grid-flow-col grid-cols-2 gap-7 lg:grid-cols-4 items-center text-center'>
-                                <div className='p-5 bg-dark-third rounded-xl shadow-md h-full col-start-1 lg:col-start-2'>
+                                <div className='p-5 bg-dark-third rounded-xl shadow-md h-full'>
                                     <LazyLoadImage
                                         src={JavascriptLogo}
                                         className='mx-auto h-24'
@@ -28,7 +40,7 @@ export default function Skills() {
                                         <span>Javascript</span>
                                     </div>
                                 </div>
-                                <div className='p-5 bg-dark-third rounded-xl shadow-md h-full col-start-2 lg:col-start-3'>
+                                <div className='p-5 bg-dark-third rounded-xl shadow-md h-full'>
                                     <LazyLoadImage
                                         src={PHPLogo}
                                         className='mx-auto h-24 w-36'
@@ -40,9 +52,9 @@ export default function Skills() {
                                 </div>
                             </div>
                         </div>
-                        <div className="pb-5">
-                            <div className="text-left py-3">
-                                <span className="text-xl">Frontend</span>
+                        <div className='pb-5'>
+                            <div className='text-left py-3'>
+                                <span className='text-xl'>Frontend</span>
                             </div>
                             <div className='grid grid-cols-2 gap-7 lg:grid-cols-4 items-center text-center'>
                                 <div className='p-5 bg-dark-third rounded-xl shadow-md h-full'>
@@ -103,6 +115,60 @@ export default function Skills() {
                                     />
                                     <div className='mt-5'>
                                         <span>Tailwind CSS</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className='pb-5'>
+                            <div className='text-left py-3'>
+                                <span className='text-xl'>Backend</span>
+                            </div>
+                            <div className='grid grid-flow-col grid-cols-2 gap-7 lg:grid-cols-4 items-center text-center'>
+                                <div className='p-5 bg-dark-third rounded-xl shadow-md h-full'>
+                                    <LazyLoadImage
+                                        src={LaravelLogo}
+                                        className='mx-auto h-24'
+                                        alt='Laravel Logo'
+                                    />
+                                    <div className='mt-5'>
+                                        <span>Laravel</span>
+                                    </div>
+                                </div>
+                                <div className='p-5 bg-dark-third rounded-xl shadow-md h-full'>
+                                    <LazyLoadImage
+                                        src={CILogo}
+                                        className='mx-auto pl-2 h-24 w-24'
+                                        alt='CI Logo'
+                                    />
+                                    <div className='mt-5'>
+                                        <span>Code Igniter</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className='pb-5'>
+                            <div className='text-left py-3'>
+                                <span className='text-xl'>Currently Learning</span>
+                            </div>
+                            <div className='grid grid-flow-col grid-cols-2 gap-7 lg:grid-cols-4 items-center text-center'>
+                                <div className='p-5 bg-dark-third rounded-xl shadow-md h-full'>
+                                    <LazyLoadImage
+                                        src={PythonLogo}
+                                        className='mx-auto h-24'
+                                        alt='Python Logo'
+                                    />
+                                    <div className='mt-5'>
+                                        <span>Python</span>
+                                    </div>
+                                </div>
+                                <div className='p-5 bg-dark-third rounded-xl shadow-md h-full'>
+                                    <LazyLoadImage
+                                        src={GoLogo}
+                                        className='mx-auto h-24'
+                                        alt='Golang Logo'
+                                    />
+                                    <div className='mt-5'>
+                                        <span>Golang</span>
                                     </div>
                                 </div>
                             </div>
