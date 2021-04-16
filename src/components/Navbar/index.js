@@ -9,7 +9,7 @@ const Navbar = ({scrollNav}) => {
         <div className={`${scrollNav ? 'sticky top-0 z-20 shadow-md' : ''} bg-dark-main relative`}>
             <div className="flex container justify-between items-center text-white mx-auto py-7 font-poppins px-5 lg:px-20">
                 <span className="font-semibold text-xl relative hidden md:block">
-                    RevDonz
+                    RevDonzz
                     <span className="w-3 h-3 bg-violet-500 rounded-full absolute animate-ping"></span>
                 </span>
                 <div className="flex space-x-3 mx-auto md:m-0">
