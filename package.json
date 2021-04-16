@@ -1,5 +1,6 @@
 {
   "name": "portfolio-react",
+  "homepage": "https://revdonz.github.io",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
