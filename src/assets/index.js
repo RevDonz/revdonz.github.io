@@ -10,6 +10,7 @@ import LaravelLogo from './images/laravel.svg';
 import PythonLogo from './images/python.svg';
 import GoLogo from './images/go.svg';
 import CSSLogo from './images/css.png';
+import LaslesvpnIMG from './images/Lasles VPN.png';
 
 export {
     IMGHero,
@@ -24,4 +25,5 @@ export {
     LaravelLogo,
     PythonLogo,
     GoLogo,
+    LaslesvpnIMG
 };
