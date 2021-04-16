@@ -22,7 +22,7 @@ export default function Project() {
                                         alt='LaslesVPN Screenshot'
                                     />
                                     <div className='mt-5 hover:text-violet-500 transition-all duration-300'>
-                                        <a href="https://laslesvpn-react.netlify.app" target="blank">Lasles VPN</a>
+                                        <a href="https://revdonz.github.io/react-laslesvpn/" target="blank">Lasles VPN</a>
                                     </div>
                                 </div>
                             </div>
