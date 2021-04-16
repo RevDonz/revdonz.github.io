@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { Footer, Hero, Navbar, Skills } from "./components";
+import { Footer, Hero, Navbar, Project, Skills } from "./components";
 
 function App() {
   const [scrollNav, setScrollNav] = useState(false)
@@ -20,6 +20,7 @@ function App() {
       <Navbar scrollNav={scrollNav} />
       <Hero />
       <Skills />
+      <Project />
       <Footer />
     </div>
   );
