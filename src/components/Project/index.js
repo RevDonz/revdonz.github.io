@@ -4,7 +4,7 @@ import { LaslesvpnIMG } from '../../assets'
 
 export default function Project() {
     return (
-        <div className='bg-dark-main font-poppins h-full' id='about'>
+        <div className='bg-dark-main font-poppins h-full' id='project'>
             <div className='container mx-auto px-5 lg:px-20 h-full pb-10'>
                 <div className='items-center w-full'>
                     <div className='bg-dark-second p-5 lg:p-10 rounded-xl text-white'>
