@@ -17,7 +17,7 @@ import { LazyLoadImage } from 'react-lazy-load-image-component';
 export default function Skills() {
     return (
         <div className='bg-dark-main font-poppins h-full' id='about'>
-            <div className='container mx-auto px-10 lg:px-20 h-full py-10'>
+            <div className='container mx-auto px-5 lg:px-20 h-full py-10'>
                 <div className='items-center w-full'>
                     <div className='bg-dark-second p-10 rounded-xl text-white'>
                         <div className='text-center pb-10'>
