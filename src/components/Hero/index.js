@@ -11,7 +11,7 @@ export default function Hero() {
         <div className="flex lg:flex-row flex-col-reverse h-full text-white justify-between items-center rounded-xl shadow-md lg:shadow-none bg-dark-second lg:bg-dark-main p-4 lg:p-0">
           <div className="py-5 w-full lg:w-2/3 text-center lg:text-left">
             <span className="font-semibold text-2xl lg:text-5xl">
-                Hi There! 👋 <br/>
+                Hi There! <br/>
                 
                 <Typical
                 steps={["I'm Reva Doni Aprilio", 3000, "I'm", 500]}
