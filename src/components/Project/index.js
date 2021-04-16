@@ -1,6 +1,8 @@
 import React from 'react'
 import { LazyLoadImage } from 'react-lazy-load-image-component'
 import { LaslesvpnIMG } from '../../assets'
+import { FaGithub } from "react-icons/fa";
+
 
 export default function Project() {
     return (
@@ -21,8 +23,13 @@ export default function Project() {
                                         className='mx-auto rounded-lg filter'
                                         alt='LaslesVPN Screenshot'
                                     />
-                                    <div className='mt-5 hover:text-violet-500 transition-all duration-300'>
-                                        <a href="https://revdonz.github.io/react-laslesvpn/" target="blank">Lasles VPN</a>
+                                    <div className="justify-center space-x-5 flex items-center">
+                                        <div className='mt-5 hover:text-violet-500 transition-all duration-300 text-2xl'>
+                                            <a href="https://github.com/RevDonz/react-laslesvpn" target="blank"><FaGithub /></a>
+                                        </div>
+                                        <div className='mt-5 hover:text-violet-500 transition-all duration-300'>
+                                            <a href="https://revdonz.github.io/react-laslesvpn/" target="blank">Lasles VPN</a>
+                                        </div>
                                     </div>
                                 </div>
                             </div>

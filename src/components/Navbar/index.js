@@ -36,7 +36,7 @@ const Navbar = ({scrollNav}) => {
                         className="hover:text-violet-500 border-b-2 border-dark-main hover:border-violet-500 transition-all duration-300"
                         spy={true}
                         smooth={true}
-                        
+                        offset={-100}
                     >
                         Project
                     </Link>
