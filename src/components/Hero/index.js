@@ -14,13 +14,12 @@ export default function Hero() {
                 Hi There! <br/>
                 
                 <Typical
-                steps={["I'm Reva Doni Aprilio", 3000, "I'm", 500]}
+                steps={["I'm Reva Doni Aprilio", 3000, "I'm Junior Web Developer", 3000]}
                 loop={Infinity}
                 className="inline-block"
                 />
             </span>
             <div className="py-5 text-gray-400 w-full lg:w-3/4 lg:text-lg leading-8">
-              <p>I'm learning web developing since 2019.</p>
               <p>Hello, my name is Reva Doni Aprilio and people who's know call me Doni (19). I Live in Bandung, West Java. I am a Telkom University student and majored in Software Engineering.</p>
             </div>
             <div className="py-3 flex items-center flex-col lg:flex-row">
