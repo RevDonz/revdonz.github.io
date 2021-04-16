@@ -19,9 +19,9 @@ export default function Hero() {
                 className="inline-block"
                 />
             </span>
-            <div className="py-5 text-gray-400 w-full lg:w-3/4 text-lg leading-8">
+            <div className="py-5 text-gray-400 w-full lg:w-3/4 lg:text-lg leading-8">
               <p>I'm learning web developing since 2019.</p>
-              <p>Hello There, my name is <span className="text-violet-500">Reva Doni Aprilio</span> and people who's know call me Doni (19). I Live in Bandung, West Java. I am a Telkom University student and majored in Software Engineering.</p>
+              <p>Hello, my name is <span className="text-violet-500">Reva Doni Aprilio</span> and people who's know call me Doni (19). I Live in Bandung, West Java. I am a Telkom University student and majored in Software Engineering.</p>
             </div>
             <div className="py-3 flex items-center flex-col lg:flex-row">
               <button className="px-3 py-2 bg-transparent focus:outline-none hover:bg-violet-500 border-solid border-2 border-violet-500 rounded-lg transition-all duration-300">
