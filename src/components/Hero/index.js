@@ -34,7 +34,7 @@ export default function Hero() {
               </div>
             </div>
             <div className="flex items-center flex-col lg:flex-row">
-              <a href="https://drive.google.com/file/d/1lbYL7jOpCCX0QbBLMqjNYNnIpZVGspJH/view?usp=sharing" rel="noreferrer" target="_blank" className="hover:text-violet-500 duration-300 transition-all flex items-center">
+              <a href="https://drive.google.com/file/d/1pn3dRa8sGlr48jC7oM6y8A_wmW5LeS3m/view?usp=sharing" rel="noreferrer" target="_blank" className="hover:text-violet-500 duration-300 transition-all flex items-center">
                 <FaFileDownload className="mr-1" />
                 <span>Get my CV</span>
               </a>
