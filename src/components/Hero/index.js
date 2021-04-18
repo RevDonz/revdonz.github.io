@@ -2,7 +2,7 @@ import React from "react";
 import Typical from "react-typical";
 import { IMGHero } from '../../assets'
 import { LazyLoadImage } from 'react-lazy-load-image-component';
-import { FaGithub, FaFacebook, FaInstagram, FaTelegram } from "react-icons/fa";
+import { FaGithub, FaFacebook, FaInstagram, FaTelegram, FaFileDownload} from "react-icons/fa";
 
 export default function Hero() {
   return (
@@ -32,6 +32,12 @@ export default function Hero() {
                 <a href="https://www.instagram.com/revdonz_/"><FaInstagram className="hover:text-violet-500 transition-all duration-300" alt="Instagram Logo" /></a>
                 <a href="https://t.me/RevDonz"><FaTelegram className="hover:text-violet-500 transition-all duration-300" alt="Telegram Logo" /></a>
               </div>
+            </div>
+            <div className="flex items-center flex-col lg:flex-row">
+              <a href="https://drive.google.com/file/d/1lbYL7jOpCCX0QbBLMqjNYNnIpZVGspJH/view?usp=sharing" rel="noreferrer" target="_blank" className="hover:text-violet-500 duration-300 transition-all flex items-center">
+                <FaFileDownload className="mr-1" />
+                <span>Get my CV</span>
+              </a>
             </div>
           </div>
           <div className="w-1/2">

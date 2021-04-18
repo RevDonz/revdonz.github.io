@@ -25,5 +25,5 @@ export {
     LaravelLogo,
     PythonLogo,
     GoLogo,
-    LaslesvpnIMG
+    LaslesvpnIMG,
 };
