@@ -2,7 +2,9 @@ import { useState, useEffect } from 'react';
 import { Footer, Hero, Navbar, Project, Skills } from "./components";
 import AOS from 'aos';
 import 'aos/dist/aos.css'; // You can also use <link> for styles
-AOS.init();
+AOS.init({
+  once: true,
+});
 
 function App() {
   const [scrollNav, setScrollNav] = useState(false)
