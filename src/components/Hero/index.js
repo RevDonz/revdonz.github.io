@@ -6,11 +6,11 @@ import { FaGithub, FaFacebook, FaInstagram, FaTelegram, FaFileDownload} from "re
 
 export default function Hero() {
   return (
-    <div className="bg-dark-main font-poppins h-full">
+    <div className="bg-dark-main font-poppins h-full lg:h-screen">
       <div className="container mx-auto px-5 lg:px-20 h-full">
         <div className="flex lg:flex-row flex-col-reverse h-full text-white justify-between items-center rounded-xl shadow-md lg:shadow-none bg-dark-second lg:bg-dark-main p-4 lg:p-0">
           <div className="py-5 w-full lg:w-2/3 text-center lg:text-left">
-            <span className="font-semibold text-2xl lg:text-5xl">
+            <span className="font-semibold text-xl lg:text-5xl">
                 Hi There! <br/>
                 
                 <Typical
