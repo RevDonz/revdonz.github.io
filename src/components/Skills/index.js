@@ -19,9 +19,9 @@ export default function Skills() {
         <div className='bg-dark-main font-poppins h-full' id='about'>
             <div className='container mx-auto px-5 lg:px-20 h-full py-10'>
                 <div className='items-center w-full'>
-                    <div className='bg-dark-second p-5 lg:p-10 rounded-xl text-white'>
+                    <div className='bg-dark-second p-5 lg:p-10 rounded-xl text-white' data-aos="fade-up"  data-aos-duration="1000">
                         <div className='text-center pb-10'>
-                            <span className='text-2xl font-semibold hover:text-violet-500 border-b-2 border-dark-second hover:border-violet-500 transition-all duration-300'>
+                            <span className='text-2xl font-semibold hover:text-violet-500 border-b-2 border-dark-second hover:border-violet-500 transition-all duration-300' >
                                 What I've Learned
                             </span>
                         </div>
