@@ -6,7 +6,7 @@ import { FaGithub, FaFacebook, FaInstagram, FaTelegram, FaFileDownload} from "re
 
 export default function Hero() {
   return (
-    <div className="bg-dark-main font-poppins h-full lg:h-screen">
+    <div className="bg-dark-main font-poppins h-full">
       <div className="container mx-auto px-5 lg:px-20 h-full">
         <div className="flex lg:flex-row flex-col-reverse h-full text-white justify-between items-center rounded-xl shadow-md lg:shadow-none bg-dark-second lg:bg-dark-main p-4 lg:p-0">
           <div className="py-5 w-full lg:w-2/3 text-center lg:text-left">
@@ -41,7 +41,7 @@ export default function Hero() {
             </div>
           </div>
           <div className="w-1/2">
-            <LazyLoadImage src={IMGHero} alt="Hero Image" data-aos="zoom-in" data-aos-delay="50" data-aos-duration="1000" />
+            <LazyLoadImage src={IMGHero} width="100%" alt="Hero Image" data-aos="zoom-in" data-aos-delay="50" data-aos-duration="1000" />
           </div>
         </div>
       </div>
