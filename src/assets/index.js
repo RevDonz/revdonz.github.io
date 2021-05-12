@@ -5,12 +5,11 @@ import HtmlLogo from './images/html.svg';
 import JavascriptLogo from './images/javascript.svg';
 import TailwindLogo from './images/tailwindcss.svg';
 import PHPLogo from './images/php.svg';
-import CILogo from './images/codeigniter.svg';
-import LaravelLogo from './images/laravel.svg';
 import PythonLogo from './images/python.svg';
 import GoLogo from './images/go.svg';
 import CSSLogo from './images/css.png';
 import LaslesvpnIMG from './images/Lasles VPN.png';
+import NodeLogo from './images/nodejs.png';
 
 export {
     IMGHero,
@@ -21,8 +20,7 @@ export {
     TailwindLogo,
     PHPLogo,
     CSSLogo,
-    CILogo,
-    LaravelLogo,
+    NodeLogo,
     PythonLogo,
     GoLogo,
     LaslesvpnIMG,

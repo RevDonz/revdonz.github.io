@@ -7,8 +7,7 @@ import {
     TailwindLogo,
     PHPLogo,
     CSSLogo,
-    CILogo,
-    LaravelLogo,
+    NodeLogo,
     PythonLogo,
     GoLogo,
 } from '../../assets';
@@ -126,22 +125,12 @@ export default function Skills() {
                             <div className='grid grid-flow-col grid-cols-2 gap-7 lg:grid-cols-4 items-center text-center'>
                                 <div className='p-5 bg-dark-third rounded-xl shadow-md h-full' data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000">
                                     <LazyLoadImage
-                                        src={LaravelLogo}
+                                        src={NodeLogo}
                                         className='mx-auto h-24'
-                                        alt='Laravel Logo'
+                                        alt='Node Logo'
                                     />
                                     <div className='mt-5'>
-                                        <span>Laravel</span>
-                                    </div>
-                                </div>
-                                <div className='p-5 bg-dark-third rounded-xl shadow-md h-full' data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000">
-                                    <LazyLoadImage
-                                        src={CILogo}
-                                        className='mx-auto pl-2 h-24 w-24'
-                                        alt='CI Logo'
-                                    />
-                                    <div className='mt-5'>
-                                        <span>Code Igniter</span>
+                                        <span>Node JS``</span>
                                     </div>
                                 </div>
                             </div>
