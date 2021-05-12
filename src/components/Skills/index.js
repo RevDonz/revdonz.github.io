@@ -126,7 +126,7 @@ export default function Skills() {
                                 <div className='p-5 bg-dark-third rounded-xl shadow-md h-full' data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000">
                                     <LazyLoadImage
                                         src={NodeLogo}
-                                        className='mx-auto h-24'
+                                        className='mx-auto h-24 w-24'
                                         alt='Node Logo'
                                     />
                                     <div className='mt-5'>
