@@ -9,7 +9,7 @@ import PythonLogo from './images/python.svg';
 import GoLogo from './images/go.svg';
 import CSSLogo from './images/css.png';
 import LaslesvpnIMG from './images/Lasles VPN.png';
-import NodeLogo from './images/nodejs.png';
+import NodeLogo from './images/nodejs.svg';
 
 export {
     IMGHero,

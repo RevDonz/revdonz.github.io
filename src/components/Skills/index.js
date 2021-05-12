@@ -99,7 +99,7 @@ export default function Skills() {
                                 <div className='p-5 bg-dark-third rounded-xl shadow-md h-full' data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000">
                                     <LazyLoadImage
                                         src={ReactLogo}
-                                        className='mx-auto h-24'
+                                        className='mx-auto w-24'
                                         alt='React JS Logo'
                                     />
                                     <div className='mt-5'>
@@ -126,11 +126,11 @@ export default function Skills() {
                                 <div className='p-5 bg-dark-third rounded-xl shadow-md h-full' data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000">
                                     <LazyLoadImage
                                         src={NodeLogo}
-                                        className='mx-auto h-24 w-24'
+                                        className='mx-auto h-24'
                                         alt='Node Logo'
                                     />
                                     <div className='mt-5'>
-                                        <span>Node JS``</span>
+                                        <span>Node JS</span>
                                     </div>
                                 </div>
                             </div>
