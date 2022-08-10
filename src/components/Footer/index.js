@@ -11,7 +11,7 @@ export default function index() {
                 </div>
                 <div className="text-white pb-5 pt-3 items-center justify-center flex flex-row" data-aos="fade-right" data-aos-duration="1500">
                     <FaRegCopyright className="mr-2" />
-                    <span>2021 Reva Doni Aprilio</span>
+                    <span>2022 Reva Doni Aprilio</span>
                 </div>
             </div>
         </div>
